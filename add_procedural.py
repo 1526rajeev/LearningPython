@@ -6,3 +6,12 @@ y = 30
 z = x + y
 #step4  print
 print(z)
+
+#step1  get the first number
+x = 18
+#step2  get the second number
+y = 22
+#step3  add two numbers and store results
+z= x+y
+#step4  print
+print(z)
