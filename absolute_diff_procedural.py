@@ -5,9 +5,9 @@ print("first value is " + x)
 print("enter second input")
 y = input()
 print("second value is " + y)
-# ADD the numbers and store the result
+# MUL the numbers and store the result
 print("result")
-z = (int(x) + int(y))
+z = (int(x)+int(y))
 if z < 0:
     print(abs(z))
 else:
