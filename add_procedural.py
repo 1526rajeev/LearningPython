@@ -1,17 +1,14 @@
 #step1  get the first number
-x = 20
-#step2  get the second number
-y = 30
-#step3  add two numbers and store results
-z = x + y
-#step4  print
-print(z)
-
-#step1  get the first number
-x = 18
-#step2  get the second number
-y = 22
-#step3  add two numbers and store results
-z= x+y
-#step4  print
-print(z)
+print("enter first input")
+x = input()
+print("first value is " + x)
+print("enter second input")
+y = input()
+print("second value is " + y)
+# ADD the numbers and store the result
+print("result")
+z = (int(x) + int(y))
+if z < 0:
+    print(abs(z))
+else:
+    print(z)
