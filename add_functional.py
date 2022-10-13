@@ -1,11 +1,14 @@
-#step1  get the first number
-def sub(x,y):
-x = 30
-#step2  get the second number
-y = 20
-#step3  add two numbers and store results
-z = x - y
-#step4  print
-print(z)
+def add(x, y):
+    z = int(x)+int(y)
+    print(z)
 
+x1 = input("enter first value: ")
+if int(x1) <0:
+    print("please enter a positive value")
+    exit()
+y1 = input("enter second value: ")
+if int(y1) <0:
+    print("please enter a positive value")
+    exit()
+add(x1,y1)
 
