@@ -1,14 +1,21 @@
-def add(x, y):
-    z = int(x)+int(y)
-    print(z)
 
-x1 = input("enter first value: ")
-if int(x1) <0:
-    print("please enter a positive value")
+print("first input")
+x = input()
+if int(x)<0:
+    print("na")
     exit()
-y1 = input("enter second value: ")
-if int(y1) <0:
-    print("please enter a positive value")
-    exit()
-add(x1,y1)
+else:
+    print("first number is "+ x)
+
+    print("second input")
+    y = input()
+    if int(y)<0:
+        print("na")
+        exit()
+    else:
+        print("second number"+ y)
+        add= int(x)+int(y)
+        print("results")
+
+        print(add)
 
