@@ -1,13 +1,19 @@
-def mul(x, y):
-    z = int(x)*int(y)
-    print(z)
+print("first input")
+x = input()
+if int(x)<0:
+    print("na")
+    exit()
+else:
+    print("first number is "+ x)
 
-x1 = input("enter first value: ")
-if int(x1) <0:
-    print("please enter a positive value")
-    exit()
-y1 = input("enter second value: ")
-if int(y1) <0:
-    print("please enter a positive value")
-    exit()
-mul(x1,y1)
+    print("second input")
+    y = input()
+    if int(y)<0:
+        print("na")
+        exit()
+    else:
+        print("second number"+ y)
+        multy= int(x)*int(y)
+        print("results")
+
+        print(multy)
