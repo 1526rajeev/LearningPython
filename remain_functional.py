@@ -13,7 +13,7 @@ else:
         exit()
     else:
         print("second number"+ y)
-        remain= int(x)//int(y)
+        remain= int(x)%int(y)
         print("results")
 
         print(remain)
