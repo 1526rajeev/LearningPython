@@ -1,6 +1,6 @@
 #print even numbers using while loop
 x = int(input("enter first number"))
-y = int(input("how many odd numbers you wish to print?"))
+y = int(input("how many even numbers you wish to print?"))
 if x%2==0:
     #print(x+1)
     num=x+2
